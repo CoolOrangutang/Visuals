@@ -17,12 +17,12 @@ public class Main {
 
         myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         myFrame.setPreferredSize(new Dimension(size,size));
-        //
+        myFrame.setResizable(false);
+
         myFrame.add(new ClockFace(size));
 
         myFrame.pack();
         myFrame.setVisible(true);
 
     }
-
 }
